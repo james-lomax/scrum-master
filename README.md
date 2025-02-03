@@ -15,6 +15,10 @@ a set of AI prompts that do everything a scrum master does:
 3. type `@kickoff-project.md` in compose mode
 4. watch the AI do its thing
 
+## pro tips 👀
+- review the planning docs before yolo-ing into prod
+- AI's giving project manager vibes, not tech lead energy - so stay on top of that code review bestie
+
 ## bestie you'll need
 - Cursor editor w/ agent mode
 - vibes
