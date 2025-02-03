@@ -18,6 +18,7 @@ a set of AI prompts that do everything a scrum master does:
 ## pro tips 👀
 - review the planning docs before yolo-ing into prod
 - AI's giving project manager vibes, not tech lead energy - so stay on top of that code review bestie
+- delete this README when starting your project (the AI gets salty)
 
 ## bestie you'll need
 - Cursor editor w/ agent mode
