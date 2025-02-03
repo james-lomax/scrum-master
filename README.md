@@ -1,6 +1,6 @@
 # 🤖 Scrum Master AI
 
-fr fr no cap - we just automated your scrum master's entire job 💀
+they tried to automate devs, so we automated them first 🔄 uno reverse card ✨
 
 ## what is this?
 a set of AI prompts that do everything a scrum master does:
