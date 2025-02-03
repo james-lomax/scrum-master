@@ -1,6 +1,6 @@
 # 🤖 Scrum Master AI
 
-they tried to automate devs, so we automated them first 🔄 uno reverse card ✨
+we automated the project managers before they could automate us 🔄 uno reverse card ✨
 
 ## what is this?
 a set of AI prompts that do everything a scrum master does:
@@ -11,16 +11,16 @@ a set of AI prompts that do everything a scrum master does:
 
 ## how to use
 1. clone this repo
-2. open [Cursor](https://cursor.sh) (it's giving VSCode but better)
-3. type `@kickoff-project.md` in compose mode
-4. watch the AI do its thing
+2. [optional] create a `requirements.md` with your project's vibe (fr be specific tho)
+3. open in [Cursor](https://www.cursor.com/)
+4. type `@kickoff-project.md` in the composer (with agent mode on)
+5. watch the AI do its thing
 
 ## pro tips 👀
 - review the planning docs before yolo-ing into prod
-- AI's giving project manager vibes, not tech lead energy - so stay on top of that code review bestie
-- delete this README when starting your project (the AI gets salty)
+- AI's giving project manager vibes, not tech lead energy - so stay on top of that code review
 
-## bestie you'll need
+## you'll need
 - Cursor editor w/ agent mode
 - vibes
 - coffee probably
@@ -28,7 +28,4 @@ a set of AI prompts that do everything a scrum master does:
 ## no but actually
 this is real. it works. your scrum master is typing...
 
-## license
-MIT - share the love ❤️
-
-*built with AI and ✨ audacity ✨* 
+*built with AI*
