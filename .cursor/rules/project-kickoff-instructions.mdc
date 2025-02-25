@@ -1,0 +1,61 @@
+---
+description: When the user wants to plan a new project with a particular set of requirements
+globs: 
+---
+
+# Project kick-off
+
+These instructions should be followed when you are tasked with planning a new project. A project should be managed with clear requirements, clear technical instructions, and a plan of action.
+
+## Instructions for project planning
+
+Project planning must be broken down into four steps:
+
+1. Environment set-up
+2. Refining requirements
+3. Refining high-level technical implementation details
+4. Writing a plan of action
+
+The planning process requires iterating on documents in the planning directory of the project root:
+
+- `planning/requirements.md` -- Maintains the latest set of requirements as bullet points
+- `planning/technical-guidance.md` -- Contains high level technical decisions
+- `planning/project-plan.md` -- Contains a high level project plan, broken down into phases
+
+You should also maintain a project README with the latest state of the project.
+
+### 1. Environment set-up
+
+Since the user has probably cloned this repo, we need to disconnect the current git remote by running:
+
+```
+git remote remove origin
+```
+
+If you cannot run this command, it means we're not in agent mode - agent mode is critical here so please tell the user they need to start again in agent mode and stop.
+
+Then we need to remove the README.md file in the project root which is specific to the scrum-master repository this comes from.
+
+### 2. Refining requirements
+
+The user must provide the initial requirements, and you must refine those requirements into a concise list of easy to understand requirements. Re-state the requirements to the user first, and then ask for clarity on any bits that are unclear. Once you are satisifed the requirements are clear, create `planning/requirements.md` and create a new git commit for these requirements.
+
+### 3. Refining high-level technical implementation details
+
+You must now figure out how we are going to implement the requirements. State the technical challenges we will face, and possible solutions to these challenges.
+
+For each challenge, if there is one obvious best solution, state that we will use this. If it is even a little bit unclear what the best solution is, ask the user for guidance.
+
+Once the user has provided all the guidance and clarity you need, commit the technical decisions to the `planning/technical-guidance.md` document.
+
+### 4. Writing a plan of action
+
+Now that we now what we need and how to implement it, we must plan our actions.
+
+First, state to the user a list of high level tasks that need to be completed, and state the best order for completion. Create `planning/project-plan.md` with just a "Next steps" section with the high level list of tasks. Once this is created, stop and ask the user if they are satisfied with this outline.
+
+When the user is satisfied, create a commit for this.
+
+## Next steps
+
+Once project planning is complete, we can begin phase (or "sprint") planning, which refines the particular set of instructions for building the next bit of this project.

@@ -1,0 +1,28 @@
+---
+description: Coding rules
+globs: 
+---
+
+# Project Coding Standards for AI Models
+
+## For all code: 
+
+- Prioritize self-documenting code: Use descriptive naming, clear structure, and standard patterns to minimize necessary comments. Only add comments to explain "why" decisions were made, not "what" the code does.
+- Optimize for readability: Write code that clearly expresses intent. Function and variable names should accurately reflect their purpose and behavior.
+- Eliminate redundancy: Refactor repeated patterns into reusable components. When similar logic appears 3+ times, extract it into helper functions with meaningful parameters.
+- Follow conventional patterns: Adhere to established community idioms and your team's coding practices. Avoid clever tricks that sacrifice clarity for brevity.
+- Choose explicit over implicit: Use descriptive identifiers that convey purpose and scope. Variables and functions should indicate what they represent and their behavior without requiring readers to trace through implementation details.
+- Ask for clarification when context is unclear.
+
+## For Python Code:
+
+- Type annotations for clarity: Use type hints following PEP 484 for function signatures and variable declarations. Keep complex types readable with aliases (from typing import TypeAlias) or custom types.
+- Enforce keyword arguments: Define functions with parameter separator (*,) to require explicit parameter names for improved readability and safer refactoring.
+- Follow consistent formatting: Adhere to Black formatting standards and PEP 8 guidelines for consistent style across the codebase.
+- Modern file operations: Use pathlib for all filesystem interactions for improved readability and cross-platform compatibility.
+- Standardize string formatting: Use f-strings exclusively for string interpolation. Avoid .format(), % formatting, and string concatenation.
+- Structured data containers: Implement dataclasses for data-oriented classes. Use frozen=True for immutability where appropriate.
+- Organize imports consistently: Group and sort imports in this order: standard library, third-party packages, local modules. Sort alphabetically within each group.
+- Favor composition patterns: Design classes using composition over inheritance. Use mixins sparingly and only when functionality is truly reusable.
+- Manage resources properly: Use context managers (with statements) for all resource acquisition and release (files, connections, locks).
+- Leverage standard library: Prefer built-in functions and standard library solutions before implementing custom versions or adding dependencies.

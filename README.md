@@ -13,7 +13,7 @@ a set of AI prompts that do everything a scrum master does:
 1. clone this repo
 2. [optional] create a `requirements.md` with your project's vibe (fr be specific tho)
 3. open in [Cursor](https://www.cursor.com/)
-4. type `@kickoff-project.md` in the composer (with agent mode on)
+4. Ask the AI to help plan your new project (reference the `@requirements.md` file here if you have one!)
 5. watch the AI do its thing
 
 ## pro tips 👀

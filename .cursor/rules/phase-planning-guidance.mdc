@@ -1,0 +1,36 @@
+---
+description: When the user wants to plan a new phase or sprint of this project
+globs: 
+---
+
+# Phase/sprint planning guidance
+
+Project planning should have already been completed, so we should have the following documents:
+
+- `planning/requirements.md` -- Maintains the latest set of requirements as bullet points
+- `planning/technical-guidance.md` -- Contains high level technical decisions
+- `planning/project-plan.md` -- Contains a high level project plan, broken down into phases
+- `planning/phaseNN-my-phase.md` -- Any past phase plan files
+
+## Planning a new phase
+
+If the user instructs you to plan the next phase, we need to first read the planning/project-plan.md document to determine what the next steps for this project are, and state the next smallest unit of work we should complete to progress towards our goals. If there are multiple options here you should ask the user to confirm what they want to work on first.
+
+Once you are clear about the goal of this phase, update the planning/project-plan.md document to move the relevant items from the Next steps section to a new section for the current phase (e.g. "Phase 1 - Do the thing"). Then state more precisely to the user what you think this phase should involve, and if there is any uncertainty, ask the user for clarification here.
+
+Once you are clear about the precise steps required for this phase, commit them to a new phase plan document using the file name format `planning/phase${phase_number}-${description}.md`.
+
+## Re-planning
+
+Sometimes the user may instruct you to re-plan the phase with some new considerations.
+
+## General guidance on phase planning
+
+- The phase plan should have an introduction which provides the essential context on the project so that an AI system reading the phase plan can act appropriately.
+- The phase plan document should be as precise and concise as possible
+- The phase plan should outline exactly what documentation and/or files are relevant to successful phase execution
+- The phase plan must define the success criteria of the phase - e.g. "We must have unit tests that verify that this new code module works correctly".
+
+## Next steps
+
+Once phase planning is complete, we should advise the user to create a new chat and reference the phase plan to begin development.

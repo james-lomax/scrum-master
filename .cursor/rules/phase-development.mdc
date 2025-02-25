@@ -1,0 +1,23 @@
+---
+description: The user wants to begin development for a phase
+globs: 
+---
+
+# Phase/sprint development guidance
+
+Project and phase planning should have already been completed, so we should have the following documents:
+
+- `planning/requirements.md` -- Maintains the latest set of requirements as bullet points
+- `planning/technical-guidance.md` -- Contains high level technical decisions
+- `planning/project-plan.md` -- Contains a high level project plan, broken down into phases
+- `planning/phaseNN-my-phase.md` -- Descriptions of the plans for each phase/sprint
+
+The user should have specified a phase plan document, read this, and if it references other important documentation go and read that too.
+
+Re-state (briefly) what you need to do based on the phase plan, and ask the user to confirm you should proceed.
+
+When ready, begin development - good luck!
+
+## Using Cursor
+
+Cursor allows us to prompt an AI system to complete certain tasks for us. If there is an independent sub-task that needs development work, we can ask the user to start a new chat with Cursor to complete this task. If we do this, it's good to provide a prompt in Markdown format in code back-ticks that the user can paste into a new chat. This prompt should provide clear instructions to the new Cursor AI system on what it needs to do.
