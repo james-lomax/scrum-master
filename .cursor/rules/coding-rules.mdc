@@ -1,5 +1,5 @@
 ---
-description: Coding rules
+description: Coding rules and guidance
 globs: 
 ---
 
@@ -13,6 +13,7 @@ globs:
 - Follow conventional patterns: Adhere to established community idioms and your team's coding practices. Avoid clever tricks that sacrifice clarity for brevity.
 - Choose explicit over implicit: Use descriptive identifiers that convey purpose and scope. Variables and functions should indicate what they represent and their behavior without requiring readers to trace through implementation details.
 - Ask for clarification when context is unclear.
+- If a tool exists to make code generation or package management easier, use it (see Tooling below)
 
 ## For Python Code:
 
@@ -26,3 +27,9 @@ globs:
 - Favor composition patterns: Design classes using composition over inheritance. Use mixins sparingly and only when functionality is truly reusable.
 - Manage resources properly: Use context managers (with statements) for all resource acquisition and release (files, connections, locks).
 - Leverage standard library: Prefer built-in functions and standard library solutions before implementing custom versions or adding dependencies.
+
+## Tooling
+
+- Use poetry to manage python dependencies
+- Use vue-cli or react-cli to generate template web UI projects
+- Creating a new Android project should be deferred to the user: the user should be instructed to create a new project in Android Studio and you should not try to create the project from scratch yourself.
