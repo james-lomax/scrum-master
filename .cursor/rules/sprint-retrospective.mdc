@@ -1,0 +1,24 @@
+---
+description: The user requests you perform a retrospective on the current sprint
+globs: 
+---
+
+# Sprint retrospective guidance
+
+Project and sprint planning should have already been completed, so we should have the following documents:
+
+- `assistant-projects/[project name]/requirements.md` -- Maintains the latest set of requirements as bullet points
+- `assistant-projects/[project name]/technical-guidance.md` -- Contains high level technical decisions
+- `assistant-projects/[project name]/project-plan.md` -- Contains a high level project plan, broken down into sprints
+- `assistant-projects/[project name]/todo.md` -- Contains a list of tasks to be completed for the project
+- `assistant-projects/[project name]/sprintNN-my-sprint.md` -- Descriptions of the plans for each sprint
+
+If the user requests you to perform a retrospective on the current sprint, you must consider, and state to the user:
+
+- What went well in this sprint?
+- What could have gone better?
+- How can we plan the next sprint better?
+
+You must create a retrospective document concluding the outcomes of the sprint with the file name format `assistant-projects/[project name]/sprintNN-my-sprint-retrospective.md` which contains this information.
+
+Then suggest any updates you might have to the planning documents. Note that you should only update these documents here if necessary.

@@ -13,14 +13,15 @@ Project planning must be broken down into four steps:
 
 1. Environment set-up
 2. Refining requirements
-3. Refining high-level technical implementation details
+3. Refining high-level technical implementation details (optional)
 4. Writing a plan of action
 
-The planning process requires iterating on documents in the planning directory of the project root:
+The planning process requires iterating on documents in the assistant-projects/[project name] directory:
 
-- `planning/requirements.md` -- Maintains the latest set of requirements as bullet points
-- `planning/technical-guidance.md` -- Contains high level technical decisions
-- `planning/project-plan.md` -- Contains a high level project plan, broken down into phases
+- `assistant-projects/[project name]/requirements.md` -- Maintains the latest set of requirements as bullet points
+- `assistant-projects/[project name]/technical-guidance.md` -- Contains high level technical decisions
+- `assistant-projects/[project name]/project-plan.md` -- Contains a high level project plan, broken down into phases
+- `assistant-projects/[project name]/todo.md` -- Contains a list of tasks to be completed for the project
 
 You should also maintain a project README with the latest state of the project.
 
@@ -38,23 +39,37 @@ Then we need to remove the README.md file in the project root which is specific 
 
 ### 2. Refining requirements
 
-The user must provide the initial requirements, and you must refine those requirements into a concise list of easy to understand requirements. Re-state the requirements to the user first, and then ask for clarity on any bits that are unclear. Once you are satisifed the requirements are clear, create `planning/requirements.md` and create a new git commit for these requirements.
+The user must provide the initial requirements, and you must refine those requirements into a concise list of easy to understand requirements. Re-state the requirements to the user first, and then ask for clarity on any bits that are unclear. Once you are satisifed the requirements are clear, create `assistant-projects/[project name]/requirements.md` and create a new git commit for these requirements.
 
-### 3. Refining high-level technical implementation details
+### 3. Refining high-level technical implementation details (optional)
 
-You must now figure out how we are going to implement the requirements. State the technical challenges we will face, and possible solutions to these challenges.
+This step is optional and only needs to be performed when we want to capture difficult technical aspects of the project.
+
+If needed, figure out how we are going to implement the requirements. State the technical challenges we will face, and possible solutions to these challenges.
 
 For each challenge, if there is one obvious best solution, state that we will use this. If it is even a little bit unclear what the best solution is, ask the user for guidance.
 
-Once the user has provided all the guidance and clarity you need, commit the technical decisions to the `planning/technical-guidance.md` document.
+Once the user has provided all the guidance and clarity you need, commit the technical decisions to the `assistant-projects/[project name]/technical-guidance.md` document.
 
 ### 4. Writing a plan of action
 
 Now that we now what we need and how to implement it, we must plan our actions.
 
-First, state to the user a list of high level tasks that need to be completed, and state the best order for completion. Create `planning/project-plan.md` with just a "Next steps" section with the high level list of tasks. Once this is created, stop and ask the user if they are satisfied with this outline.
+First, state to the user a list of high level tasks that need to be completed, and state the best order for completion. Create `assistant-projects/[project name]/project-plan.md` with just a "Next steps" section with the high level list of tasks. Once this is created, stop and ask the user if they are satisfied with this outline.
 
 When the user is satisfied, create a commit for this.
+
+### 5. Creating a todo list
+
+Create a todo list file at `assistant-projects/[project name]/todo.md` to track the ongoing work for the project. This file should:
+
+- List specific tasks that need to be completed
+- Be organized in a clear, prioritized manner
+- Be regularly updated as work progresses
+- Have completed tasks removed or marked as done
+- Have new tasks appended as they are identified
+
+The todo list serves as a living document that helps track progress and maintain focus on the current work items.
 
 ## Next steps
 
