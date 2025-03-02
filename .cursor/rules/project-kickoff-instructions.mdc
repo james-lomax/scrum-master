@@ -7,6 +7,8 @@ globs:
 
 These instructions should be followed when you are tasked with planning a new project. A project should be managed with clear requirements, clear technical instructions, and a plan of action.
 
+Every project has a name - if you don't know the name, ask the user now.
+
 ## Instructions for project planning
 
 Project planning must be broken down into four steps:

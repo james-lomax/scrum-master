@@ -5,6 +5,8 @@ globs:
 
 # Sprint planning guidance
 
+This document contains guidance on how to do sprint planning for a project. Every project has a name - if you don't know the name, ask the user now.
+
 Project planning should have already been completed, so we should have the following documents:
 
 - `assistant-projects/[project name]/requirements.md` -- Maintains the latest set of requirements as bullet points
