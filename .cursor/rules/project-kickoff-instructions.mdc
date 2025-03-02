@@ -20,7 +20,7 @@ The planning process requires iterating on documents in the assistant-projects/[
 
 - `assistant-projects/[project name]/requirements.md` -- Maintains the latest set of requirements as bullet points
 - `assistant-projects/[project name]/technical-guidance.md` -- Contains high level technical decisions
-- `assistant-projects/[project name]/project-plan.md` -- Contains a high level project plan, broken down into phases
+- `assistant-projects/[project name]/project-plan.md` -- Contains a concise high level project plan of execution
 - `assistant-projects/[project name]/todo.md` -- Contains a list of tasks to be completed for the project
 
 You should also maintain a project README with the latest state of the project.
@@ -53,9 +53,7 @@ Once the user has provided all the guidance and clarity you need, commit the tec
 
 ### 4. Writing a plan of action
 
-Now that we now what we need and how to implement it, we must plan our actions.
-
-First, state to the user a list of high level tasks that need to be completed, and state the best order for completion. Create `assistant-projects/[project name]/project-plan.md` with just a "Next steps" section with the high level list of tasks. Once this is created, stop and ask the user if they are satisfied with this outline.
+Now that we now what we need and how to implement it, we must plan our actions. Create a high-level plan in `assistant-projects/[project name]/project-plan.md`.
 
 When the user is satisfied, create a commit for this.
 

@@ -9,13 +9,13 @@ Project planning should have already been completed, so we should have the follo
 
 - `assistant-projects/[project name]/requirements.md` -- Maintains the latest set of requirements as bullet points
 - `assistant-projects/[project name]/technical-guidance.md` -- Contains high level technical decisions
-- `assistant-projects/[project name]/project-plan.md` -- Contains a high level project plan, broken down into sprints
+- `assistant-projects/[project name]/project-plan.md` -- Contains a high level project plan
 - `assistant-projects/[project name]/todo.md` -- Contains a list of tasks to be completed for the project
 - `assistant-projects/[project name]/sprintNN-my-sprint.md` -- Any past sprint plan files
 
 ## Planning a new sprint
 
-If the user instructs you to plan the next sprint, we need to first read the assistant-projects/[project name]/project-plan.md document to determine what the next steps for this project are, and state the next smallest unit of work we should complete to progress towards our goals. If there are multiple options here you should ask the user to confirm what they want to work on first.
+If the user instructs you to plan the next sprint, we need to first read `assistant-projects/[project name]/project-plan.md` and `assistant-projects/[project name]/todo.md` document to determine what the next steps for this project are, and state the next smallest unit of work we should complete to progress towards our goals. If there are multiple options here you should ask the user to confirm what they want to work on first.
 
 Once you are clear about the goal of this sprint, update the assistant-projects/[project name]/project-plan.md document to move the relevant items from the Next steps section to a new section for the current sprint (e.g. "Sprint 1 - Do the thing"). Then state more precisely to the user what you think this sprint should involve, and if there is any uncertainty, ask the user for clarification here.
 
